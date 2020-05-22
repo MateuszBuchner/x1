@@ -1,0 +1,15 @@
+[
+{"type":"header","version":"5.0.2","comment":"Export to JSON plugin for PHPMyAdmin"},
+{"type":"database","name":"tutorial"},
+{"type":"table","name":"users","database":"tutorial","data":
+[
+{"name":"mateusz","amount":"1","city":"ostrzeszow"},
+{"name":"igor","amount":"2","city":"poznan"},
+{"name":"krycha","amount":"3","city":"rojow"},
+{"name":"daniel","amount":"4","city":"warszawa"},
+{"name":"damian","amount":"5","city":"gdansk"},
+{"name":"marcel","amount":"6","city":"olszyna"},
+{"name":"iga","amount":"7","city":"tak"}
+]
+}
+]

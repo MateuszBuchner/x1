@@ -1,0 +1,35 @@
+<template>
+<div class="page" data-name="about">
+  <div class="navbar">
+    <div class="navbar-inner sliding">
+      <div class="left">
+        <a href="#" class="link back">
+          <i class="icon icon-back"></i>
+          <span class="if-not-md">Back</span>
+        </a>
+      </div>
+      <div class="title">About</div>
+    </div>
+  </div>
+  <div class="page-content">
+<div>
+    <label for="fname">PESEL:</label><br>
+    <input id="pesel" type="text" required pattern="[0-9]{11}"/>
+    <span id="hasError"  style="color:Red;" title="Nieprawidłowy numer PESEL" ></span></br>
+    <input type="submit" value="+" id="dodawanie_przycisk" />
+
+    <label for="fname">Rok:</label><br>
+    <input id="rok" type="text"/><br>
+    <label for="fname">Miesiac:</label><br>
+    <input id="miesiac" type="text"/><br>
+    <label for="fname">Dzień:</label><br>
+    <input id="dzien" type="text"/><br>
+    <label for="fname">Płeć:</label><br>
+    <input id="plec" type="text"/><br>
+</div>
+  </div>
+</div>
+</template>
+<script>
+export default {};
+</script>
