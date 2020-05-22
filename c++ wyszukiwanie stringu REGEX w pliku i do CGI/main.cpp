@@ -105,7 +105,7 @@ int main( int argc, char ** argv ) {
             goto start;
             break;
         case 2:
-            cout << "Wybrales wyszukiwanie plyt" << endl;
+            cout << "Wybrales wyszukiwanie cfg" << endl;
             cout << "===========================" << endl << endl;
             cout << "Podaj Tytul do wyszukania" << endl;
             cin >> podane;
